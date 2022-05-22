@@ -29,12 +29,12 @@
   width: 500px;
   margin: 0 auto 0;
 }
-.main__text {
+.section__text {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
-.new-task__wrapper {
+.section__task-wrapper {
   display: flex;
 }
 ul {
@@ -62,7 +62,7 @@ button{
   color: #3a3a3a;
 }
 /* Heading */
-.title {
+.section__title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -71,7 +71,7 @@ button{
   margin: 0;
   text-transform: uppercase;
 }
-.main__text_input {
+.section__text_input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -83,12 +83,12 @@ button{
   font-family: Lato, sans-serif;
   color: #888;
 }
-.main__text_input:focus {
+.section__text_input:focus {
   color: #333;
 }
 
 /* New Task */
-.new-task__title {
+.section__title_new-task {
   display: block;
   margin: 0 0 20px;
 }
@@ -106,7 +106,8 @@ button{
   justify-content: space-between;
   align-items: center;
 }
-.task > * {
+.task .task__checkbox,
+.task .task__text {
   vertical-align: middle;
 }
 
